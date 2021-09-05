@@ -9,6 +9,7 @@
     --cor02: #FCA60F;
     --cor03: #C95E20;
 }
+
 *{
     padding: 0;
     margin: 0;
@@ -37,7 +38,7 @@ main{
     justify-content: space-evenly;
 }
 .container{
-    margin-top: 1%;
+    margin-top: 4%;
 }
 .base{
     font-size: larger;
@@ -45,6 +46,16 @@ main{
     font-weight: 700;
     text-align: justify;
     max-width: 300px;
+}
+#socials{
+    display: flex;
+    gap: 20px;
+}
+#socials > a{
+    transition: transform 0.25s;
+}
+#socials > a:hover{
+    transform: scale(1.2);
 }
 .base > button{
     font-family: 'Nunito';
@@ -54,5 +65,11 @@ main{
     background-color: var(--cor02);
     border-style: none;
     margin-bottom: 30px;
+    transition: background-color 0.25s;
 }
+.base > button:hover{
+    background-color: #754e0b;
+    cursor: pointer;
+}
+
 
