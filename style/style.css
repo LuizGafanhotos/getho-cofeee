@@ -34,9 +34,25 @@ li a{
 }
 main{
     display: flex;
+    justify-content: space-evenly;
+}
+.container{
+    margin-top: 1%;
 }
 .base{
+    font-size: larger;
     font-family: 'Nunito';
     font-weight: 700;
     text-align: justify;
+    max-width: 300px;
 }
+.base > button{
+    font-family: 'Nunito';
+    margin-top: 2vw;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    background-color: var(--cor02);
+    border-style: none;
+    margin-bottom: 30px;
+}
+
