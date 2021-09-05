@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* AS FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap');
+
+/* AS CORES PARA O DESIGN */
+:root{
+    --cor01: #000;
+    --cor02: #FCA60F;
+    --cor03: #C95E20;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    font-family: 'Nunito';
+    font-weight: 600;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    padding: 10px;
+    list-style: none;
+    gap: 30px;
+    padding-right: 40px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    display: flex;
+}
+.base{
+    font-family: 'Nunito';
+    font-weight: 700;
+    text-align: justify;
+}
