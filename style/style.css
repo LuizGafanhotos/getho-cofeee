@@ -35,9 +35,10 @@ li a{
 }
 main{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .container{
+    position: relative;
     margin-top: 4%;
 }
 .base{
@@ -46,6 +47,16 @@ main{
     font-weight: 700;
     text-align: justify;
     max-width: 300px;
+}
+.back1{
+    position: absolute;
+    z-index: -1;
+    left: 30px;
+}
+.back2{
+    position: absolute;
+    z-index: -1;
+    left: -255px;
 }
 #socials{
     display: flex;
