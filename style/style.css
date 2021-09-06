@@ -74,4 +74,30 @@ main{
 #scroll{
     text-align: center;
 }
+@media (max-width: 552px){
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #logo{
+        padding-right: 60px;
+    }
+    ul{
+        justify-content: center;
+    }
+    #copo{
+        display: none;
+    }
+    #scroll{
+        display: none;
+    }
+    #socials{
+        margin-top: 90px;
+        justify-content: center;
+    }
+    .base{
+        text-align: center;
+    }
+}
 
