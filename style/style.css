@@ -24,10 +24,10 @@ header{
 }
 ul{
     display: flex;
-    padding: 10px;
     list-style: none;
     gap: 30px;
     padding-right: 40px;
+    font-size: 1.25rem;
 }
 li a{
     text-decoration: none;
