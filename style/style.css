@@ -71,5 +71,7 @@ main{
     background-color: #754e0b;
     cursor: pointer;
 }
-
+#scroll{
+    text-align: center;
+}
 
