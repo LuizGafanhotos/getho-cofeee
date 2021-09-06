@@ -50,13 +50,15 @@ main{
 }
 .back1{
     position: absolute;
-    z-index: -1;
-    left: 30px;
+    z-index: -2;
+    left: -398px;
+    top: -51px;
 }
 .back2{
     position: absolute;
-    z-index: -1;
-    left: -255px;
+    top: -73px;
+    left: 64px;
+    width: 400px;
 }
 #socials{
     display: flex;
