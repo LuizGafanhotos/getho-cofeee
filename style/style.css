@@ -39,7 +39,7 @@ main{
 }
 .container{
     position: relative;
-    margin-top: 4%;
+    margin-top: 14%;
 }
 .base{
     font-size: larger;
@@ -56,9 +56,9 @@ main{
 }
 .back2{
     position: absolute;
-    top: -73px;
-    left: 64px;
-    width: 400px;
+    top: -208px;
+    left: 43px;
+    
 }
 #socials{
     display: flex;
