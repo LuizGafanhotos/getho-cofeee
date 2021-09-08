@@ -9,7 +9,9 @@
     --cor02: #FCA60F;
     --cor03: #C95E20;
 }
-
+body{
+    overflow-x: hidden;
+}
 *{
     padding: 0;
     margin: 0;
@@ -32,6 +34,10 @@ ul{
 li a{
     text-decoration: none;
     color: black;
+    transition: 0.25s color;
+}
+li a:hover{
+    color: rgb(121, 116, 116);
 }
 main{
     display: flex;
@@ -39,7 +45,7 @@ main{
 }
 .container{
     position: relative;
-    margin-top: 14%;
+    margin-top: 8%;
 }
 .base{
     font-size: larger;
@@ -50,14 +56,15 @@ main{
 }
 .back1{
     position: absolute;
-    z-index: -2;
+    z-index: -3;
     left: -398px;
     top: -51px;
 }
 .back2{
+    z-index: -1;
     position: absolute;
-    top: -208px;
-    left: 43px;
+    top: -117px;
+    left: -4px;
     
 }
 #socials{
