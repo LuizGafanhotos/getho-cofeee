@@ -12,6 +12,9 @@
 body{
     overflow-x: hidden;
 }
+hr{
+   background-color: gray;
+}
 *{
     padding: 0;
     margin: 0;
